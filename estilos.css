@@ -1,0 +1,386 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.logo{
+    height: auto;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #3b5998;
+    padding-top:10px;
+    padding-bottom: 5px;
+}
+#titulo{
+    font-size:30px;
+    padding-left: 20px;
+    color: #fff;
+}
+body{
+    background-color: #f7f7f7;
+}
+.root-box{
+    width: 100%;
+    position: relative;
+}
+.main-box{
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    height: auto;
+    width: 100%;
+}
+.banner-pic{
+    position: relative;
+    height: 170px;
+    width: 100%;
+    object-fit:cover;
+    display: block;
+}
+.flecha{
+    position: absolute;
+    top:10px;
+    color: #fff;
+    left:20px;
+}
+.back{
+    border: none;
+}
+
+.fotoicon{
+    position: absolute;
+    top:35px;
+    left: 20%;
+    color: #fff;
+}
+.fotos{
+    position: absolute;
+    left: 24%;
+    margin-left: 8px;
+    top:35px;
+    margin-top: -2px;
+}
+#total-foto{
+
+    color: #fff;
+    font-size: 15px;
+    font-style:normal;
+
+}
+.usertopname{
+    left: 20%;
+    position: absolute;
+    top:0px;
+}
+.check{
+    position: absolute;
+    top:5px;
+    left:43%;
+    margin-right:40px;
+    color: #5feeee;
+}
+#topname{
+    color:#fff
+}
+.videos{
+    position: absolute;
+    left:29%;
+    margin-left: 14px;
+    margin-top: -4px;
+    top:35px;
+    color:#fff;
+
+
+}
+.videos-totales{
+    font-size: 15px;
+    position: absolute;
+    left: 36%;
+    margin-left: 18px;
+    margin-top: -3px;
+    top:35px;
+    color: #fff;
+
+}
+.profile-pic{
+    margin-left:5px;
+    margin-top: -50px;
+    position: relative;
+    width: 100px;
+    border-radius: 100%;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #fff;
+    
+}
+.username{
+    margin-left: 9px;
+    margin-bottom: 10px;
+}
+#user{
+    font-style:initials;
+    color: black;
+}
+.bio{
+    
+    padding: 0px 10px;
+}
+#bio-text{
+    font-style:bold;
+    color: rgb(0, 0, 0);
+    text-align: left;
+}
+.imgen{
+    width: 300px;
+}
+
+.likes{
+    font-size: 15px;
+    position: absolute;
+    left: 46%;
+    margin-left: 18px;
+    margin-top: -2px;
+    top:35px;
+    color: #fff;
+}
+
+.like{
+    position: absolute;
+    top:35px;
+    left:45%;
+    color: #fff;
+}
+
+
+
+
+
+.menu-box{
+    border-top: solid;
+    border-width: 1px;
+    border-color:#86878a;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    height:49px;
+    background-color: #ffffff;
+    
+}
+
+
+
+
+.home-buttom {
+    position: relative;
+    top:9px;
+    left: 20px;
+    border: none;
+    border-radius: 100%;
+    background-color: transparent;
+}
+
+.home {
+    background-color: transparent;
+    border-radius: 100%;
+    border: none;
+}
+.home a:link{
+    color:#9e9e9e;
+}
+.home a:visited{
+    color: #9e9e9e;
+}
+
+#user{
+    margin-left: 15px;
+    font-size: 20px;
+}
+#subuser{
+    margin-left: 15px;
+    font-size: 15px;
+    color:#8a96a3;
+}
+
+.dot{
+    position: absolute;
+    margin-left: 22%;
+    margin-top: 2px;
+    color: #8a96a3;
+}
+#lastseen{
+    position: absolute;
+    font-size: 15px;
+    color: #8a96a3;
+    margin-top: 1;
+    top:250px;
+    left: 29%;
+}
+#lovenote{
+    margin: 3px 2px;
+    color: #96a0ac;
+    font-size: 14px;
+    font-style: oblique;
+}
+
+#about{
+    margin-top: 10px;
+    margin-left: 5px;
+    font-size: 15px;
+    color: #00aff0;
+}
+
+.more{
+    position: absolute;
+    left: 90%;
+    top:20px;
+    color: #fff;
+}
+
+.more-buttom {
+
+    border: none;
+    color: transparent;
+}
+.sub{
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 13px;
+    margin-top: 10px;
+    border-style: solid;
+    border-width: 4px;
+    border-color: #f7f7f7;
+}
+#sus{
+    color: #8a96a3;
+    font-size: 17px;
+}
+.enterbithx {
+    border-radius: 50px;
+    margin-top: 20px;
+    border:none;
+    background-color: #00aff0;
+    width: 100%;
+    margin-left: 5px;
+    height: 50px;
+    padding: 10px;
+}
+#ñeñeñe{
+    font-size: 15px;
+    color: #fff;
+    text-decoration: none;
+}
+.public{
+    width: 100%;
+    height: 34px;
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    margin-top: 20px;
+    border-width: 1px;
+    border-top: solid;
+    border-color: #ffffff;
+}
+#sexosexo{
+    font-size: 15px;
+    text-align: center;
+}
+.panel{
+    position: relative;
+    padding: 5px;
+    border-bottom: solid;
+    border-width: 2px;
+
+
+}
+.public-panel{
+    border-width: 1px;
+    border-style: solid;
+    border-color: #96a0ac;
+    border-radius: 2%;
+    margin-left: 25px;
+    margin-bottom:80px;
+    margin-top:50px;
+    width: 320px;
+    height: 100px;
+    position: relative;
+    background-color: transparent
+}
+.blog-box{
+    position: absolute;
+    
+    margin-bottom: 10px;
+    padding-bottom: 40px;
+}
+.enter2{
+    margin: 35px 30px;
+    border: none;
+    padding: 10px;
+    width: 80%;
+    background-color: #00aff0;
+    border-radius: 50px;
+}
+#entertow{
+    text-decoration: none;
+    color: #fff;
+}
+.lock{
+    color: #bebfc0de;
+    position: absolute;
+    left: 150px;
+}
+.lock-p{
+    position: absolute;
+    left: 270px;
+    margin:15px;
+    color: #86878a;
+}
+.camera-video{
+    left: 60px;
+    position: absolute;
+    margin: 10px;
+    color: #86878a;
+}
+.card-text{
+    left: 10px;
+    color: #86878a;
+    margin: 10px;
+    position: absolute;
+}
+.imagex{
+    left: 110px;
+    color: #86878a;
+    position: absolute;
+    margin: 10px;
+}
+.bi-dot{
+    left: 40px;
+    color: #86878a;
+    margin: 10px;
+    position: absolute;
+}
+.bi-bi-dot{
+    left: 90px;
+    color: #86878a;
+    margin: 10px;
+    position: absolute;
+}
+#lookaround{
+    position: absolute;
+    margin: 10px;
+    color: #86878a;
+    left: 30px;
+    font-size: 12px;
+}
+#cantstop{
+    position: absolute;
+    margin: 10px;
+    font-size: 12px;
+    color: #86878a;
+    left: 85px;
+}
+#givitaway{
+    color: #86878a;
+    left: 130px;
+    font-size: 12px;
+    margin: 10px;
+    position: absolute;
+}
